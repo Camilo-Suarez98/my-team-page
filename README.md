@@ -23,8 +23,11 @@ Users should be able to:
 - Seethis page in mobile view and desktop view as well
 
 ### Screenshot
+#### Mobile:
+<img width="378" alt="image" src="https://github.com/Camilo-Suarez98/my-team-page/assets/68169750/8a2baead-2197-4f9f-87c1-348382401c2d">
 
-![](./screenshot.jpg)
+#### Desktop:
+<img width="1051" alt="image" src="https://github.com/Camilo-Suarez98/my-team-page/assets/68169750/e885387f-b73f-4ae6-94d0-e7994f3506bd">
 
 ## My process
 
