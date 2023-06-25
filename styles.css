@@ -1,10 +1,13 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .page {
   padding: 20px;
-  font-family: "Poppins", sans-serif;
 }
 @media (min-width: 1440px) {
   .page {
-    padding: 100px 200px;
+    padding: 100px 200px 50px;
   }
 }
 
@@ -43,6 +46,8 @@
 }
 .container .container__person {
   text-transform: uppercase;
+  cursor: pointer;
+  height: 300px;
   width: 40%;
   position: relative;
 }
@@ -68,8 +73,47 @@
 }
 @media (min-width: 1440px) {
   .container .container__person {
-    width: 30%;
+    width: 27%;
+    height: 500px;
   }
+}
+.container .container__person--down-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.container .container__person--down-mobile p {
+  top: 65px !important;
+}
+@media (min-width: 1440px) {
+  .container .container__person--down-mobile {
+    justify-content: flex-start;
+  }
+  .container .container__person--down-mobile p {
+    top: -5px !important;
+  }
+}
+@media (min-width: 1440px) {
+  .container .container__person--down-desktop {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .container .container__person--down-desktop p {
+    top: 50px !important;
+  }
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  color: rgb(172, 168, 168);
+  font-size: 14px;
+}
+.footer a {
+  color: rgb(172, 168, 168);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
