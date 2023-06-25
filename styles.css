@@ -2,6 +2,11 @@
   padding: 20px;
   font-family: "Poppins", sans-serif;
 }
+@media (min-width: 1440px) {
+  .page {
+    padding: 100px 200px;
+  }
+}
 
 .title .title__text {
   margin-top: 40px;
@@ -14,6 +19,22 @@
   text-align: justify;
   margin-bottom: 40px;
 }
+@media (min-width: 1440px) {
+  .title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .title .title__text {
+    margin-top: 0;
+  }
+  .title .details {
+    width: 50%;
+  }
+  .title .details .detail__title {
+    margin-top: 0;
+  }
+}
 
 .container {
   display: flex;
@@ -23,7 +44,6 @@
 .container .container__person {
   text-transform: uppercase;
   width: 40%;
-  margin-bottom: 40px;
   position: relative;
 }
 .container .container__person section {
@@ -45,6 +65,11 @@
 }
 .container .container__person h1 {
   font-size: 16px;
+}
+@media (min-width: 1440px) {
+  .container .container__person {
+    width: 30%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
