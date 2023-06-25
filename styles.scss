@@ -1,0 +1,65 @@
+$font: 'Poppins', sans-serif;
+
+@mixin letter-style($letter-way: uppercase){
+  text-transform: uppercase;
+}
+
+.page {
+  padding: 20px;
+  font-family: $font;
+}
+
+.title {
+  .title__text {
+    margin-top: 40px;
+  }
+
+  .details {
+    .detail__title {
+      @include letter-style;
+      margin-top: 30px;
+    }
+
+    .detail__text {
+      text-align: justify;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .container__person {
+    @include letter-style;
+    width: 40%;
+    margin-bottom: 40px;
+    position: relative;
+
+    section {
+      display: flex;
+      justify-content: flex-start;
+      
+      img {
+        width: 100%;
+      }
+
+      p {
+        transform: rotate(90deg);
+        font-size: 14px;
+        position: absolute;
+        top: -5px;
+        right: -20px;
+        width: 130px;
+        height: 145px;
+        margin: 0;
+      }
+    }
+
+    h1 {
+      font-size: 16px;
+    }
+  }
+}
